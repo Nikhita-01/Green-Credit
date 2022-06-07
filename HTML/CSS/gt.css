@@ -1,0 +1,219 @@
+.title-font{
+    font-family: 'Courier Prime', monospace;
+    padding-left: 3%;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+/*body element*/
+body {
+    background-image: url(forest-bkg.png);  
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+/*navbar*/
+.nav-moto{
+    font-family: 'Bad Script', cursive;
+    font-size: 25px;
+    font-weight: 700;
+    color: #222831;
+    text-align: center;
+}
+.nav-bkg{
+    background-color:#f0fc8c;
+}
+.nav-opt{
+    font-family: 'Monaco', monospace;
+    padding-right: 15%;
+    font-size:1.2rem;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: black;
+}
+/*Main Section*/
+.main-sec{
+    text-align: center;
+    color: #f0fc8c;
+    padding-top: 15%;
+}
+.mission{
+    padding-bottom: 5%;
+    font: roboto;
+    font-size: 30px;
+    font-weight: 700;
+}
+.mem-q{
+    padding-top: 4%;
+    font-weight: 700;
+    font: roboto;
+    font-size: x-large;
+}
+.log-mem{
+    color: #f0fc8c;
+    padding-top: 1%;
+    text-decoration: none;
+    font-weight: 650;
+}
+.quote{
+    font: georgia;
+    font-size: x-large;
+    font-style: italic;
+}
+/*ABOUT US PAGE*/
+/*container about us*/
+.about-us{
+    text-align: center;
+    color: black;
+    background-color: #f0fc8c;
+    margin: 10%;
+    border-radius: 25px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.h23-about{
+    font-size: 3rem;
+}
+.about-para{
+    line-height: 1.5;
+    font-weight: 400;
+}
+/*List of items*/
+.list-rec{
+    background-color: #f0fc8c !important;
+    text-align: center;
+    color: black;
+    padding-top: 2%;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    font-family: 'Courier Prime', monospace;
+    font-size: small;
+    border-radius: 70px;
+    margin-left: 3.5rem;
+    margin-right:3.5rem;
+    margin-bottom: 3.5rem;
+}
+.rec-img{
+    border-radius: 100%;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.rec-img:hover{
+    top: -10px;
+}
+.list-rec:hover{
+    top:-10px;
+    background-color: #02475E !important;
+    color: #f0fc8c;
+}
+/*Procedure*/
+.pro-way{
+    text-align: center;
+    background-color: #f0fc8c;
+    border-radius: 25px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.about-pro{
+    color:black;
+    padding: 3% 7%;
+    font-family: 'Courier Prime', monospace;
+}
+.pro-btn{
+    margin-bottom: 3%;
+    margin-top: 2%;
+    font-family: 'Courier Prime', monospace;
+}
+.pro-tab{
+    text-align: center;
+    background-color: #f0fc8c;
+    border-radius: 50px;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 3% 1.5%;
+    font-family: 'Courier Prime', monospace;
+}
+.pro-list{
+    font-size: larger;
+    line-height: 2.2;
+}
+/*Sign up*/
+.signup-form{
+    text-align: center;
+    background-color: #f0fc8c;
+    width: 43.5%;
+    border-radius: 50px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 3% 1.5%;
+    font-family: 'Courier Prime', monospace;
+}
+.single-log{
+    text-align: center;
+    background-color: #f0fc8c;
+    border-radius: 90px;
+    width: 50%;
+    margin-left: 24%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 3% 1.5%;
+    font-family: 'Courier Prime', monospace;
+}
+/*login*/
+.login-form{
+    text-align: center;
+    background-color: #f0fc8c;
+    border-radius: 90px;
+    width: 50%;
+    margin-left: 24% !important;
+    margin-right: 20% !important;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 3% 1.5%;
+    font-family: 'Courier Prime', monospace;
+}
+/*Pictures*/
+.pics{
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 100%;
+    padding: 1.5%;
+}
+.row-div{
+    text-align: center;
+}
+.con-img{
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+   
+}
+/*Footer*/
+#footer{
+    text-align: center;
+    padding: 0.1% 0.1%;
+    background-color: #f0fc8c;
+    margin-bottom: 0%;
+}
+.a{
+    padding-left: 2%;
+    padding-right: 2%;
+    color: black;
+    text-decoration: none;
+    
+}
